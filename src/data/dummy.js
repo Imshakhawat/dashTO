@@ -513,7 +513,7 @@ export const links = [
     links: [
       {
         name: "orders",
-        nameTO: "Course",
+        nameTO: "ROOMS",
         icon: <FiLayers />,
       },
       {
@@ -528,7 +528,54 @@ export const links = [
       },
     ],
   },
+
   {
+    title: "Charts",
+    links: [
+      {
+        name: "line",
+        nameTO: "Previous Test Data",
+        icon: <AiOutlineStock />,
+      },
+      // {
+      //   name: "area",
+      //   nameTO: "area",
+      //   icon: <AiOutlineAreaChart />,
+      // },
+
+      {
+        name: "bar",
+        nameTO: "Marks Comparison",
+        icon: <AiOutlineBarChart />,
+      },
+      {
+        name: "pie",
+        nameTO: "ROOM Density",
+        icon: <FiPieChart />,
+      },
+      // {
+      //   name: "financial",
+      //   nameTO: "financial",
+      //   icon: <RiStockLine />,
+      // },
+      {
+        name: "color-mapping",
+        nameTO: "color-mapping",
+        icon: <BsBarChart />,
+      },
+      {
+        name: "pyramid",
+        nameTO: "Course Population",
+        icon: <GiLouvrePyramid />,
+      },
+      {
+        name: "stacked",
+        nameTO: "Semester Report",
+        icon: <AiOutlineBarChart />,
+      },
+    ],
+  },
+    {
     title: "Apps",
     links: [
       {
@@ -538,7 +585,7 @@ export const links = [
       },
       {
         name: "kanban",
-        nameTO: "kanban",
+        nameTO: "ToDo",
         icon: <BsKanban />,
       },
       {
@@ -546,57 +593,11 @@ export const links = [
         nameTO: "editor",
         icon: <FiEdit />,
       },
-      {
-        name: "color-picker",
-        nameTO: "color-picker",
-        icon: <BiColorFill />,
-      },
-    ],
-  },
-  {
-    title: "Charts",
-    links: [
-      {
-        name: "line",
-        nameTO: "line",
-        icon: <AiOutlineStock />,
-      },
-      {
-        name: "area",
-        nameTO: "area",
-        icon: <AiOutlineAreaChart />,
-      },
-
-      {
-        name: "bar",
-        nameTO: "bar",
-        icon: <AiOutlineBarChart />,
-      },
-      {
-        name: "pie",
-        nameTO: "pie",
-        icon: <FiPieChart />,
-      },
-      {
-        name: "financial",
-        nameTO: "financial",
-        icon: <RiStockLine />,
-      },
-      {
-        name: "color-mapping",
-        nameTO: "color-mapping",
-        icon: <BsBarChart />,
-      },
-      {
-        name: "pyramid",
-        nameTO: "pyramid",
-        icon: <GiLouvrePyramid />,
-      },
-      {
-        name: "stacked",
-        nameTO: "stacked",
-        icon: <AiOutlineBarChart />,
-      },
+      // {
+      //   name: "color-picker",
+      //   nameTO: "color-picker",
+      //   icon: <BiColorFill />,
+      // },
     ],
   },
 ];
@@ -915,10 +916,16 @@ export const userProfileData = [
 
 export const ordersGrid = [
   {
-    headerText: 'NAME',
-    template: gridOrderImage,
+    headerText: 'Course Name',
+    field: 'CustomerName',
     textAlign: 'Center',
     width: '120',
+  },
+    { 
+    field: 'CustomerName',
+    headerText: 'Course Code',
+    width: '150',
+    textAlign: 'Center',
   },
   {
     field: 'OrderID',
@@ -938,29 +945,11 @@ export const ordersGrid = [
     width: '150',
     textAlign: 'Center',
   },
-  {
-    field: 'TotalAmount',
-    headerText: 'Total Amount',
-    format: 'C2',
-    textAlign: 'Center',
-    editType: 'numericedit',
-    width: '150',
-  },
-  {
-    headerText: 'Status',
-    template: gridOrderStatus,
-    field: 'OrderItems',
-    textAlign: 'Center',
-    width: '120',
-  },
 
 
-  {
-    field: 'Location',
-    headerText: 'Location',
-    width: '150',
-    textAlign: 'Center',
-  },
+
+
+
 ];
 
 export const customersData = [

@@ -1,0 +1,106 @@
+export const CourseData = [
+  {
+    CourseName: "Computer Programming",
+    CourseCode: "CSE-2110",
+    RoomID: 1055,
+    TotatStudents: 55,
+    TestTaken: 5,
+  },
+  {
+    CourseName: "Digital Logic Design",
+    CourseCode: "CSE-2868",
+    RoomID: 1434,
+    TotatStudents: 434,
+    TestTaken: 7,
+  },
+  {
+    CourseName: "Software Development",
+    CourseCode: "CSE-3974",
+    RoomID: 1987,
+    TotatStudents: 987,
+    TestTaken: 9,
+  },
+  {
+    CourseName: "Computer Algorithms",
+    CourseCode: "CSE-2042",
+    RoomID: 1021,
+    TotatStudents: 21,
+    TestTaken: 5,
+  },
+  {
+    CourseName: "Chemistry",
+    CourseCode: "CSE-3128",
+    RoomID: 1564,
+    TotatStudents: 564,
+    TestTaken: 2,
+  },
+  {
+    CourseName: "Physics II ",
+    CourseCode: "CSE-2016",
+    RoomID: 1008,
+    TotatStudents: 8,
+    TestTaken: 4,
+  },
+  {
+    CourseName: "Database Management Systems ",
+    CourseCode: "CSE-2324",
+    RoomID: 1162,
+    TotatStudents: 162,
+    TestTaken: 8,
+  },
+  {
+    CourseName: "Theory of Computing",
+    CourseCode: "CSE-2944",
+    RoomID: 1472,
+    TotatStudents: 472,
+    TestTaken: 3,
+  },
+  {
+    CourseName: "Data Communication",
+    CourseCode: "CSE-2458",
+    RoomID: 1229,
+    TotatStudents: 229,
+    TestTaken: 5,
+  },
+  {
+    CourseName: "Compiler",
+    CourseCode: "CSE-2206",
+    RoomID: 1103,
+    TotatStudents: 103,
+    TestTaken: 15,
+  },
+];
+
+export const CourseGrid = [
+  {
+    headerText: "Course Name",
+    field: "CourseName",
+    textAlign: "Center",
+    width: "120",
+  },
+  {
+    field: "CourseCode",
+    headerText: "Course Code",
+    width: "150",
+    textAlign: "Center",
+  },
+  {
+    field: "RoomID",
+    headerText: "ROOM ID",
+    width: "120",
+    textAlign: "Center",
+  },
+  {
+    field: "TotatStudents",
+    headerText: "Total Students",
+    width: "150",
+    editType: "dropdownedit",
+    textAlign: "Center",
+  },
+  {
+    field: "TestTaken",
+    headerText: "TEST TAKEN",
+    width: "150",
+    textAlign: "Center",
+  },
+];

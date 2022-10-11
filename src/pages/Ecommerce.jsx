@@ -70,7 +70,9 @@ const Ecommerce = () => {
         </div>
       </div>
 
-      <div className="flex gap-10 flex-wrap justify-center">
+
+
+      {/* <div className="flex gap-10 flex-wrap justify-center">
         <div className="bg-white dark:text-gray-200 dark:bg-secondary-dark-bg m-3 p-4 rounded-2xl md:w-780  ">
           <div className="flex justify-between">
             <p className="font-semibold text-xl">Revenue Updates</p>
@@ -176,8 +178,8 @@ const Ecommerce = () => {
             </div>
           </div>
         </div>
-      </div>
-
+      </div> */}
+{/* 
       <div className="flex gap-10 m-4 flex-wrap justify-center">
         <div className="bg-white dark:text-gray-200 dark:bg-secondary-dark-bg p-6 rounded-2xl">
           <div className="flex justify-between items-center gap-2">
@@ -376,6 +378,10 @@ const Ecommerce = () => {
           </div>
         </div>
       </div>
+ */}
+
+
+
     </div>
   );
 };

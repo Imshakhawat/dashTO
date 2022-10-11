@@ -1,0 +1,17 @@
+
+        name: "ecommerce",
+        nameTO: "Overview",
+
+
+        name: "orders",
+        nameTO: "ROOMS",
+
+
+        name: "employees",
+        nameTO: "Total Tests",
+
+
+        name: "customers",
+        nameTO: "Students",
+
+  
