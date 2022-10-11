@@ -6,7 +6,7 @@ import { CourseData, CourseGrid } from "../data/dummyTO";
 import { Header } from '../components';
 
 const Orders = () => {
-  const editing = { allowDeleting: true, allowEditing: true };
+  const editing = { allowDeleting: true, allowEditing: false };
   return (
     <div className="m-2 md:m-10 mt-20 p-2 md:p-10 bg-white rounded-3xl">
       <Header category="Page" title="Courses" />
@@ -30,6 +30,7 @@ const Orders = () => {
         </ColumnsDirective>
         <Inject
           services={[
+            
             Resize,
             Sort,
             ContextMenu,

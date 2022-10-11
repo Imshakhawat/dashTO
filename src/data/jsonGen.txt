@@ -1,0 +1,45 @@
+[
+  '{{repeat(5, 7)}}',
+  {
+    TestTitle: '{{firstName()}}',
+    
+    RoomName:  function (tags) {
+      var fruits = ['Digital Logic Design', 
+                    'Software Development', 
+                    'Computer Algorithms',
+                    'Computer Programming', 
+                    'Chemistry',
+                    'Physics', 
+                    'Database Management Systems',
+                    'Theory of Computing', 
+                    'Data Communication',
+                    'Compiler'                                                                   
+                   ];
+      return fruits[tags.integer(0, fruits.length - 1)];
+    },
+    
+    RoomID:  function (tags) {
+      var fruits = ['CSE-2110', 
+                    'CSE-2868', 
+                    'CSE-3128',
+                    'CSE-2016', 
+                    'CSE-2324',
+                    'CSE-2944', 
+                    'CSE-2458',
+                    'CSE-2206', 
+                    'CSE-3974',
+                    'CSE-2042'                                                                   
+                   ];
+      return fruits[tags.integer(0, fruits.length - 1)];
+    },
+    
+    
+    TestDat: '{{date(new Date(2014, 0, 1), new Date(), "dd-MM-YYYY T hh:mm:ss")}}',
+    
+    favoriteFruit: function (tags) {
+      var fruits = ['apple', 'banana', 'strawberry'];
+      return fruits[tags.integer(0, fruits.length - 1)];
+    }
+  }
+]
+
