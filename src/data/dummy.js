@@ -253,19 +253,19 @@ export const areaCustomSeries = [
 
 export const barChartData = [
   [
-    { x: 'USA', y: 46 },
-    { x: 'GBR', y: 27 },
-    { x: 'CHN', y: 26 },
+    { x: "Test 1", y: 46 },
+    { x: "Test 2", y: 27 },
+    { x: "Test 3", y: 26 },
   ],
   [
-    { x: 'USA', y: 37 },
-    { x: 'GBR', y: 23 },
-    { x: 'CHN', y: 18 },
+    { x: "Test 1", y: 37 },
+    { x: "Test 2", y: 23 },
+    { x: "Test 3", y: 18 },
   ],
   [
-    { x: 'USA', y: 38 },
-    { x: 'GBR', y: 17 },
-    { x: 'CHN', y: 26 },
+    { x: "Test 1", y: 21 },
+    { x: "Test 2", y: 17 },
+    { x: "Test 3", y: 11 },
   ],
 ];
 
@@ -274,7 +274,7 @@ export const barCustomSeries = [
     dataSource: barChartData[0],
     xName: 'x',
     yName: 'y',
-    name: 'Gold',
+    name: 'Highest',
     type: 'Column',
     marker: {
       dataLabel: {
@@ -288,7 +288,7 @@ export const barCustomSeries = [
     dataSource: barChartData[1],
     xName: 'x',
     yName: 'y',
-    name: 'Silver',
+    name: 'Mean',
     type: 'Column',
     marker: {
       dataLabel: {
@@ -302,7 +302,7 @@ export const barCustomSeries = [
     dataSource: barChartData[2],
     xName: 'x',
     yName: 'y',
-    name: 'Bronze',
+    name: 'Lowest',
     type: 'Column',
     marker: {
       dataLabel: {
@@ -2869,7 +2869,7 @@ export const ordersData = [
 export const scheduleData = [
   {
     Id: 1,
-    Subject: 'Explosion of Betelgeuse Star',
+    Subject: 'physics Test 1',
     Location: 'Space Center USA',
     StartTime: '2021-01-10T04:00:00.000Z',
     EndTime: '2021-01-10T05:30:00.000Z',
@@ -2877,7 +2877,7 @@ export const scheduleData = [
   },
   {
     Id: 2,
-    Subject: 'Thule Air Crash Report',
+    Subject: 'physics Test 1',
     Location: 'Newyork City',
     StartTime: '2021-01-11T06:30:00.000Z',
     EndTime: '2021-01-11T08:30:00.000Z',
@@ -2885,7 +2885,7 @@ export const scheduleData = [
   },
   {
     Id: 3,
-    Subject: 'Blue Moon Eclipse',
+    Subject: 'physics Test 1',
     Location: 'Space Center USA',
     StartTime: '2021-01-12T04:00:00.000Z',
     EndTime: '2021-01-12T05:30:00.000Z',
@@ -2893,7 +2893,7 @@ export const scheduleData = [
   },
   {
     Id: 4,
-    Subject: 'Meteor Showers in 2021',
+    Subject: 'physics Test 1',
     Location: 'Space Center USA',
     StartTime: '2021-01-13T07:30:00.000Z',
     EndTime: '2021-01-13T09:00:00.000Z',
@@ -2901,7 +2901,7 @@ export const scheduleData = [
   },
   {
     Id: 5,
-    Subject: 'Milky Way as Melting pot',
+    Subject: 'physics Test 1',
     Location: 'Space Center USA',
     StartTime: '2021-01-14T06:30:00.000Z',
     EndTime: '2021-01-14T08:30:00.000Z',
@@ -2909,7 +2909,7 @@ export const scheduleData = [
   },
   {
     Id: 6,
-    Subject: 'Mysteries of Bermuda Triangle',
+    Subject: 'physics Test 1',
     Location: 'Bermuda',
     StartTime: '2021-01-14T04:00:00.000Z',
     EndTime: '2021-01-14T05:30:00.000Z',
@@ -2917,7 +2917,7 @@ export const scheduleData = [
   },
   {
     Id: 7,
-    Subject: 'Glaciers and Snowflakes',
+    Subject: 'physics Test 1',
     Location: 'Himalayas',
     StartTime: '2021-01-15T05:30:00.000Z',
     EndTime: '2021-01-15T07:00:00.000Z',
@@ -2925,7 +2925,7 @@ export const scheduleData = [
   },
   {
     Id: 8,
-    Subject: 'Life on Mars',
+    Subject: 'physics Test 1',
     Location: 'Space Center USA',
     StartTime: '2021-01-16T03:30:00.000Z',
     EndTime: '2021-01-16T04:30:00.000Z',
@@ -2941,7 +2941,7 @@ export const scheduleData = [
   },
   {
     Id: 10,
-    Subject: 'Wildlife Galleries',
+    Subject: 'physics Test 1',
     Location: 'Africa',
     StartTime: '2021-01-20T05:30:00.000Z',
     EndTime: '2021-01-20T07:30:00.000Z',
@@ -2949,7 +2949,7 @@ export const scheduleData = [
   },
   {
     Id: 11,
-    Subject: 'Best Photography 2021',
+    Subject: 'physics Test 1',
     Location: 'London',
     StartTime: '2021-01-21T04:00:00.000Z',
     EndTime: '2021-01-21T05:30:00.000Z',
@@ -3037,7 +3037,7 @@ export const scheduleData = [
   },
   {
     Id: 22,
-    Subject: 'The Cycle of Seasons',
+    Subject: 'physics Test 1',
     Location: 'Research Center of USA',
     StartTime: '2021-01-12T09:00:00.000Z',
     EndTime: '2021-01-12T10:30:00.000Z',
@@ -3045,7 +3045,7 @@ export const scheduleData = [
   },
   {
     Id: 23,
-    Subject: 'Sky Gazers',
+    Subject: 'physics Test 1',
     Location: 'Greenland',
     StartTime: '2021-01-15T09:00:00.000Z',
     EndTime: '2021-01-15T10:30:00.000Z',
@@ -3053,7 +3053,7 @@ export const scheduleData = [
   },
   {
     Id: 24,
-    Subject: 'Facts of Humming Birds',
+    Subject: 'physics Test 1',
     Location: 'California',
     StartTime: '2021-01-16T07:00:00.000Z',
     EndTime: '2021-01-16T09:00:00.000Z',
@@ -3117,7 +3117,7 @@ export const lineCustomSeries = [
   { dataSource: lineChartData[0],
     xName: 'x',
     yName: 'y',
-    name: 'Germany',
+    name: 'Attendance',
     width: '2',
     marker: { visible: true, width: 10, height: 10 },
     type: 'Line' },
@@ -3125,7 +3125,7 @@ export const lineCustomSeries = [
   { dataSource: lineChartData[1],
     xName: 'x',
     yName: 'y',
-    name: 'England',
+    name: 'Mean Marks',
     width: '2',
     marker: { visible: true, width: 10, height: 10 },
     type: 'Line' },
@@ -3133,7 +3133,7 @@ export const lineCustomSeries = [
   { dataSource: lineChartData[2],
     xName: 'x',
     yName: 'y',
-    name: 'India',
+    name: 'Student Response',
     width: '2',
     marker: { visible: true, width: 10, height: 10 },
     type: 'Line' },
@@ -3141,13 +3141,13 @@ export const lineCustomSeries = [
 ];
 
 export const pieChartData = [
-  { x: 'Labour', y: 18, text: '18%' },
-  { x: 'Legal', y: 8, text: '8%' },
-  { x: 'Production', y: 15, text: '15%' },
-  { x: 'License', y: 11, text: '11%' },
-  { x: 'Facilities', y: 18, text: '18%' },
-  { x: 'Taxes', y: 14, text: '14%' },
-  { x: 'Insurance', y: 16, text: '16%' },
+  { x: "Digital Logic Design", y: 18, text: "18%" },
+  { x: "Physics", y: 8, text: "8%" },
+  { x: "Compiler", y: 15, text: "15%" },
+  { x: "Software Development", y: 11, text: "11%" },
+  { x: "Computer Programming", y: 18, text: "18%" },
+  { x: "Theory of Computing", y: 14, text: "14%" },
+  { x: "Data Communication", y: 16, text: "16%" },
 ];
 
 export const contextMenuItems = [
@@ -3202,7 +3202,7 @@ export const stackedCustomSeries = [
   { dataSource: stackedChartData[0],
     xName: 'x',
     yName: 'y',
-    name: 'Budget',
+    name: 'progress',
     type: 'StackingColumn',
     background: 'blue',
 
@@ -3211,7 +3211,7 @@ export const stackedCustomSeries = [
   { dataSource: stackedChartData[1],
     xName: 'x',
     yName: 'y',
-    name: 'Expense',
+    name: '',
     type: 'StackingColumn',
     background: 'red',
 

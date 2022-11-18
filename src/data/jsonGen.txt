@@ -1,5 +1,5 @@
 [
-  '{{repeat(5, 7)}}',
+  '{{repeat(30, 1)}}',
   {
     TestTitle: '{{firstName()}}',
     
@@ -34,12 +34,10 @@
     },
     
     
-    TestDat: '{{date(new Date(2014, 0, 1), new Date(), "dd-MM-YYYY T hh:mm:ss")}}',
-    
-    favoriteFruit: function (tags) {
-      var fruits = ['apple', 'banana', 'strawberry'];
-      return fruits[tags.integer(0, fruits.length - 1)];
-    }
+    TestDate: '{{date(new Date(2014, 0, 1), new Date(), "dd-MM-YYYY T hh:mm:ss")}}',
+    TestTime: '{{date(new Date(2014, 0, 1), new Date(), "hh:mm:ss")}}',
+    participants:'{{integer(20, 40)}}'
+
   }
 ]
 
